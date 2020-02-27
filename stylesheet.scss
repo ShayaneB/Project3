@@ -812,4 +812,30 @@ h5.view_option{
         color: rgb(185, 185, 185);
     }
 
+    & #overlap_image{
+        position:relative;
+
+        & .fa-plus-circle{
+            border-radius: 50%;
+            position: absolute;
+            left: 4.2rem;
+            top: 1rem;
+            border: 2px solid white;
+        }
+
+        & .profile_pic{
+            margin: 1rem;
+        }
+
+        & .first_photo{
+            position: absolute;
+            border: 2px solid white;
+        }
+
+        & .second_photo{
+            position: absolute;
+            left: 1.5rem;
+            border: 2px solid white;
+        }
+    }
 }
