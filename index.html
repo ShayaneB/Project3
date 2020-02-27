@@ -15,12 +15,25 @@
             <a id="side_icon" href="/">
                 <p><b>P</b>raum</p>
 
-                <div id="sidebar">
-                <i class ="fa fa-home fa-1x"></i>
-                <i class ="fa fa-list fa-1x"></i>
-                <i class ="fa fa-folder fa-1x"></i>
-                <i class ="fa fa-cog fa-1x"></i>
-                </div>
+            <div id="sidebar">
+               
+             <div class="home">  
+                <hr> <i class ="fa fa-home fa-1x"></i>
+            </div>
+
+            <div class="home">
+                <hr> <i class ="fa fa-list fa-1x"></i>
+            </div>
+
+            <div class="home">
+                <hr> <i class ="fa fa-folder fa-1x"></i>
+            </div>
+
+            <div class="home">
+                <hr> <i class ="fa fa-cog fa-1x"></i>
+            </div>
+            
+        </div>
 
                 <i class ="fa fa-sign-out-alt fa-1x"></i>
             </a>
@@ -30,10 +43,10 @@
             <i class ="fa fa-bars"></i>
             <i class ="fa fa-th-large"></i>
         
-            <a class="top_bar" href="/">All</a>
-            <a class="top_bar" href="/">Current</a>
-            <a class="top_bar" href="/">Pending</a>
-            <a class="top_bar" href="/">Complited</a>
+            <a class="top_bar" href="#">All</a>
+            <a class="top_bar" href="#">Current</a>
+            <a class="top_bar" href="#">Pending</a>
+            <a class="top_bar" href="#">Complited</a>
 
             <div class="box">
 
@@ -118,22 +131,54 @@
                     <h5 class="view_option"> View All</h5>
 
                 <div id="first_project">
+                    <section class="first_portion">
                     <a>125</a>
                     <h5>All finished projects</h5>
                     <h6>2 projects out of time</h6>
-                </div>  
+                    </section>
+         
+                    <section class="second_portion">
+                    <div class="circle-wrap">
+                      <div class="circle">
+                        <div class="mask full">
+                          <div class="fill"></div>
+                        </div>
+                        <div class="mask half">
+                          <div class="fill"></div>
+                        </div>
+                        <div class="inside-circle"> 70% </div>
+                      </div>
+                    </div>
+                </section>
+                </div>
 
                 <div id="second_project">
+                    <section class="first_portion">
                     <a>1105</a>
                     <h5>Customer interest</h5>
                     <h6>+ 576 new clients</h6>
+                    </section>
+
+                    <section class="second_portion">
+                        <div class="circle-wrap">
+                          <div class="circle">
+                            <div class="mask full">
+                              <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                              <div class="fill"></div>
+                            </div>
+                            <div class="inside-circle"> 68% </div>
+                          </div>
+                        </div>
+                    </section>
                 </div>
              </div>
 
         </div>
     </div>
 
-            <div id="calender">
+        <div id="calender">
             <a>
             <i class ="fa fa-search"></i>
             <i class ="fa fa-bell"></i>
@@ -141,8 +186,41 @@
 
             <img class ="profile_pic" 
             src="infant-in-gray-3-button-up-long-sleeve-shirt-sitting-on-59865.jpg">
+
+            <div class="month_scroll">
+                <h3 class="file_option">March 2020</h3>
+                
+                <div class="view_option">
+                <i class="fa fa-greater-than fa-xs"></i>
+                <i class="fa fa-less-than fa-xs right"></i>
+                </div>
             </div>
 
+            <div id="date_day">
+                <a id="date1">24 <span class="day">M</span></a>
+                <a id="date2">25 <span class="day">T</span></a>
+                <a id="date3">26 <span class="day">W</span></a>
+                <a id="date4">27 <span class="day">T</span></a>
+                <a id="date5">28 <span class="day">F</span></a>
+                <a id="date6">29 <span class="day">S</span></a>
+                <a id="date7">30 <span class="day">S</span></a>   
+            </div>
+
+            <div id="meetings">
+                <h3 class="file_option"> Meetings</h3>
+                <h5 class="view_option"> View All</h5>
+            </div>
+
+            <div class="project_overview">
+            <i class="fas fa-ellipsis-h"></i>
+            <h3>Projects Overview</h3>
+            <h4>9AM-6PM</h4>
+            <img class ="profile_pic" src="photo1.jpg">
+            <img class ="profile_pic" src="photo2.jpg">
+            <i class="fas fa-plus-circle fa-3x"></i>
+            </div>
+
+        </div>
         </section>
     </div>
 </body>
