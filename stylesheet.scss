@@ -841,7 +841,7 @@ h5.view_option{
 
 @media(min-width: 120rem){
     .month_scroll .fa{
-        margin: 3rem 4rem 0 0;
+        margin: 3rem 6rem 0 0;
 
         &.right{
             margin: 3rem 0.5rem 0 0;
@@ -849,6 +849,14 @@ h5.view_option{
     }
 
     #calender{
-        background-size: 25rem 30%;
+        background-size: 25rem 50%;
+    }
+
+    #first_project{
+        margin: 0 2rem 1rem 2rem;
+    }
+    
+    #second_project{
+        margin: 0 2rem 1rem 2rem;
     }
 }
