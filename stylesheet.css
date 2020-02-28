@@ -390,7 +390,7 @@ h5.view_option {
   border-bottom-right-radius: 2rem;
   border-top-right-radius: 2rem;
   background: url("photo3") #f6f7ff bottom no-repeat;
-  background-size: 25rem 25rem;
+  background-size: 100% 45%;
   background-blend-mode: multiply; }
   #calender h2 {
     margin-top: 4rem; }
@@ -589,10 +589,12 @@ h5.view_option {
       border: 2px solid white; }
 
 @media (min-width: 120rem) {
-  .month_scroll .fa.right {
-    margin: 3rem 2rem 0 0; }
+  .month_scroll .fa {
+    margin: 3rem 4rem 0 0; }
+    .month_scroll .fa.right {
+      margin: 3rem 0.5rem 0 0; }
 
   #calender {
-    background-size: 25rem 35rem; } }
+    background-size: 25rem 30%; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
