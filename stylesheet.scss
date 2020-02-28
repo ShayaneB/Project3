@@ -12,6 +12,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #DAE2F8;
+    font-family: 'Poppins', 'Quicksand', sans-serif;
 }
 
 .bg1{
@@ -70,7 +71,6 @@ p{
         border-bottom-right-radius: 0.4rem;
         border-color: white;
     }
-
 }
     
 i.fa-sign-out-alt{
@@ -121,8 +121,9 @@ i.fa-sign-out-alt{
         grid-template-columns: 34% 33% 33%;
         padding: 0 1rem 1rem 1rem;
 
-        a.amount{
+        & a.amount{
             margin-left: 60%;
+            color: black;
         }
 
         & .box1{
@@ -541,8 +542,6 @@ h5.view_option{
     font-size: 1.5rem;
   }
 
-
-
 #calender{
     border-bottom-right-radius: 2rem;
     border-top-right-radius: 2rem;
@@ -838,4 +837,10 @@ h5.view_option{
             border: 2px solid white;
         }
     }
+}
+
+@media(max-width: 120rem){
+    .month_scroll .fa{
+        margin: 3rem 3rem 0 0;
+}
 }

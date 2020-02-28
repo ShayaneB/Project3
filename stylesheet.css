@@ -9,7 +9,8 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #DAE2F8; }
+  background-color: #DAE2F8;
+  font-family: 'Poppins', 'Quicksand', sans-serif; }
 
 .bg1 {
   background-color: #DAE2F8;
@@ -93,7 +94,8 @@ i.fa-sign-out-alt {
     grid-template-columns: 34% 33% 33%;
     padding: 0 1rem 1rem 1rem; }
     #middle_bar .box a.amount {
-      margin-left: 60%; }
+      margin-left: 60%;
+      color: black; }
     #middle_bar .box .box1 {
       border-radius: 1rem;
       box-shadow: 0 0 1rem 1rem rgba(116, 115, 115, 0.1);
@@ -585,5 +587,9 @@ h5.view_option {
       position: absolute;
       left: 1.5rem;
       border: 2px solid white; }
+
+@media (max-width: 120rem) {
+  .month_scroll .fa {
+    margin: 3rem 3rem 0 0; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
