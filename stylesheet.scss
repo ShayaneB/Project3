@@ -546,7 +546,7 @@ h5.view_option{
     border-bottom-right-radius: 2rem;
     border-top-right-radius: 2rem;
     background: url("photo3") #f6f7ff bottom no-repeat;
-    background-size: 25rem 24rem;
+    background-size: 25rem 25rem;
     background-blend-mode: multiply;
 
     & h2{
@@ -839,8 +839,12 @@ h5.view_option{
     }
 }
 
-@media(max-width: 120rem){
-    .month_scroll .right{
+@media(min-width: 120rem){
+    .month_scroll .fa.right{
         margin: 3rem 2rem 0 0;
+    }
+
+    #calender{
+        background-size: 25rem 35rem;
     }
 }
